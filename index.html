@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Module - Yonevas University</title>
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Explore our comprehensive course modules at Yonevas University. Learn about Chemical Bonding, Quantum Mechanics, and more. Book an appointment with our lecturers.">
+    <meta name="keywords" content="Course Modules, Chemistry, Quantum Mechanics, Chemical Bonding, University Courses, Yonevas University">
+    <meta name="author" content="Yonevas University">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Course Module - Yonevas University">
+    <meta property="og:description" content="Explore our comprehensive course modules at Yonevas University. Learn about Chemical Bonding, Quantum Mechanics, and more. Book an appointment with our lecturers.">
+    <meta property="og:image" content="https://course-module.vercel.app/logo.png">
+    <meta property="og:url" content="https://course-module.vercel.app">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Course Module - Yonevas University">
+    <meta name="twitter:description" content="Explore our comprehensive course modules at Yonevas University. Learn about Chemical Bonding, Quantum Mechanics, and more. Book an appointment with our lecturers.">
+    <meta name="twitter:image" content="https://course-module.vercel.app/logo.png">
+    <meta name="twitter:site" content="@YonevasUniversity">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://course-module.vercel.app">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/logo.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @media (max-width: 768px) {
+            #searchBoxTop {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white px-4 py-3 flex justify-between items-center">
+        <div class="flex items-center">
+            <img src="logo.png" alt="Logo" class="h-10 md:h-16 w-full mx-3">
+        </div>
+        <h1 class="text-sm md:text-2xl font-bold ml-1">My Courses</h1>
+        <input type="text" id="searchBoxTop" placeholder="Search courses..." class="hidden md:block border p-2 w-auto rounded-md bg-gray-300 md:w-72">
+        <button class="bg-red-900 text-white  p-2 md:px-4 md:py-2 rounded text-xs md:text-base">Book Appointment</button>
+    </nav>
+    
+    <!-- Main Content -->
+    <div class="flex flex-col md:flex-row md:px-14">
+        <!-- Sidebar -->
+        <aside class="w-full md:w-1/4 p-2 md:p-4">
+            <div class="w-full h-auto bg-white rounded-xl p-4 mb-4">
+                <div class="relative flex flex-col items-center bg-blue-900 h-24 w-full rounded-t-xl">
+                    <div class="mx-auto mt-10 h-24 w-24 rounded-full bg-gray-100 flex items-center justify-center relative">
+                        <img src="https://t3.ftcdn.net/jpg/04/91/76/62/360_F_491766294_h4j7LbW2YgfbNHhq7F8GboIc1XyBSEY5.jpg"
+                            alt="Profile Pix" class="overlay-image bg-gray-600 bg-opacity-90 w-full h-full rounded-full">
+                    </div>
+                </div>
+                <div class="text-center w-full pt-10">
+                    <p class="text-sm font-semibold">Yonevas University</p>
+                    <p class="text-xs">Thomas Victor</p>
+                    <a href="#">
+                        <button class="hover:bg-gray-100 rounded-md mt-2 hover:text-red-800 text-white px-3 py-1 bg-red-800 whitespace-nowrap md:text-base">
+                            Profile
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <ul class="rounded-xl p-3 bg-blue-900 text-white">
+                <li class="my-3">
+                    <a href="#" class="flex items-center px-3 py-2 text-sm capitalize bg-red-700 rounded text-white hover:bg-red-800 hover:text-red-500">
+                        <i class="fas fa-home pr-4"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="my-3">
+                    <a href="#" class="flex items-center px-3 py-2 text-sm capitalize bg-red-700 rounded text-white hover:bg-red-800 hover:text-red-500">
+                        <i class="fas fa-book pr-4"></i>
+                        <span>Modules</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        
+        <!-- Main Content Area -->
+        <main class="w-full md:w-3/4 p-2 md:p-4 order-1 md:order-2">
+            <div class="bg-white p-2 md:p-6 shadow mb-6">
+                <h1 class="text-xl md:text-2xl font-bold mb-2 capitalize">CHM 104 (Introduction to Chemistry)</h1>
+                <p class="text-gray-700 mb-4 text-base md:text-lg">We cover everything you need to know about chemical compounds. Chemical bonding is the process by which atoms come together to form bonds and create molecules. It involves the sharing or transfer of electrons between atoms, resulting in the formation of ionic, covalent, or metallic bonds.</p>
+                <p class="text-gray-500 mb-6">Lecturer: <strong>John Doe</strong></p>
+            </div>
+            
+            <div class="mb-4 bg-white p-2 md:p-4 flex items-center justify-between md:gap-2">
+                <h1 class="text-xs md:text-2xl font-bold mb-2 capitalize">Modules (10)</h1>
+                <input type="text" id="searchBox" placeholder="Search Modules..." class="border w-36 p-2 md:w-2/5 mb-4 bg-gray-300 text-black placeholder:text-gray-800">
+                <div class="flex justify-between items-center mb-2">
+                    <div class="flex items-center gap-2 mb-2">
+                        <input type="checkbox" id="selectAll" class="mr-2 h-4 md:h-10 w-4 md:w-10" style="accent-color: #891716;">
+                        <button id="deleteButton" class="bg-red-500 text-white p-2 md:px-4 md:py-2 text-center rounded">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                        <button id="downloadButton" class="bg-green-500 text-white p-2 md:px-4 md:py-2 text-center rounded">
+                            <i class="fas fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modules Container -->
+            <div id="modulesContainer">
+                <!-- Modules will be dynamically inserted here -->
+            </div>
+        </main>
+    </div>
+    
+    <!-- Video Player Modal -->
+    <div id="videoModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+        <div class="bg-white p-4 rounded shadow-lg relative h-96 w-4/5 mx-auto">
+            <button class="absolute top-2 right-2 text-black" onclick="closeVideoModal()">X</button>
+            <video id="videoPlayer" class="w-full h-full" controls>
+                <source src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    
+    <!-- File Viewer Modal -->
+    <div id="fileModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+        <div class="bg-white p-4 rounded shadow-lg relative">
+            <button class="absolute top-2 right-2 text-black" onclick="closeFileModal()">X</button>
+            <iframe id="fileViewer" class="w-full h-96" src=""></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

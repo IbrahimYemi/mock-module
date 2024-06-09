@@ -1,0 +1,12 @@
+[
+    {"file_type": "file", "file_size": "1MB", "file_path": "/sample-file.pdf", "file_name": "Chemical Bonding", "last_modified": "Jan 20, 2024"},
+    {"file_type": "video", "file_size": "10MB", "file_path": "/sample-video.mp4", "file_name": "Introduction to Quantum Mechanics", "last_modified": "Feb 15, 2024"},
+    {"file_type": "file", "file_size": "1.5MB", "file_path": "/sample-file.pdf", "file_name": "Thermodynamics", "last_modified": "Mar 10, 2024"},
+    {"file_type": "video", "file_size": "12MB", "file_path": "/sample-video.mp4", "file_name": "Organic Chemistry Basics", "last_modified": "Apr 5, 2024"},
+    {"file_type": "file", "file_size": "2MB", "file_path": "/sample-file.pdf", "file_name": "Inorganic Chemistry", "last_modified": "May 1, 2024"},
+    {"file_type": "video", "file_size": "15MB", "file_path": "/sample-video.mp4", "file_name": "Chemical Reactions", "last_modified": "Jun 20, 2024"},
+    {"file_type": "file", "file_size": "2.5MB", "file_path": "/sample-file.pdf", "file_name": "Analytical Chemistry", "last_modified": "Jul 18, 2024"},
+    {"file_type": "video", "file_size": "20MB", "file_path": "/sample-video.mp4", "file_name": "Physical Chemistry", "last_modified": "Aug 25, 2024"},
+    {"file_type": "file", "file_size": "3MB", "file_path": "/sample-file.pdf", "file_name": "Biochemistry", "last_modified": "Sep 10, 2024"},
+    {"file_type": "video", "file_size": "25MB", "file_path": "/sample-video.mp4", "file_name": "Polymer Chemistry", "last_modified": "Oct 30, 2024"}
+]
